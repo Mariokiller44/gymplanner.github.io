@@ -23,9 +23,9 @@
         @media only screen and (max-width: 520px) {
             /* For mobile phones: */
             header {
-                width: 50vw;
+                width: 89vw;
                 height: 10vh;
-                animation-name: inicio;
+                animation-name: inicioMovil;
             }
         }
         
@@ -36,6 +36,17 @@
             }
             100% {
                 width: 98vw;
+                height: 10vh;
+            }
+        }
+        
+        @keyframes inicioMovil {
+            0% {
+                width: 30vw;
+                height: 10vh;
+            }
+            100% {
+                width: 89vw;
                 height: 10vh;
             }
         }
